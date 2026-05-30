@@ -4,6 +4,9 @@
 我今天想做的是把C:\Python_sound 的excel 的特定資訊整合成我要的新excel表,生成EXCEL表名稱: "Report_use_sound"的pythoncoding
 rawdata 是以後放在資料夾內要整合檔案的範例,檔案會有高機率超過一個,我要一起整合
 example_report_sound 是以後輸出檔案的範例,A欄到U欄第一列的資訊是固定的,然後要從rawdata的每個分頁去擷取資訊
+
+==從這邊 繼續==
+
 A 欄的"日期(起)"是rawdata 分頁中的儲存格V欄中的監測時間下方儲存格的日期,會出現example: 1/21~1/22,那就要擷取1/21的日期
 B 欄的"時間(起)"是rawdata 分頁中的儲存格B17的時間,會出現example:13~14,那就要擷取13的時間,並用13:00顯示
 C 欄的"日期(迄)"是rawdata 分頁中的儲存格V欄中的監測時間下方儲存格的日期,會出現example: 1/21~1/22,那就要擷取1/22的日期
